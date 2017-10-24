@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class ChatClient {
 	public static void main(String[] args) {
-		String hostName;
+		String hostName = "127.0.0.1";
 		int portNumber = 4444;
 
 		if (args.length < 2 || args[0] == null || args[1] == null) {
